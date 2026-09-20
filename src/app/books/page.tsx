@@ -1,5 +1,4 @@
 
-import Image from 'next/image';
 import React, { Suspense } from 'react';
 
 import { IBook } from '@/types/bookType';

@@ -41,7 +41,7 @@ const BookDetailsPage = async ({ params }: bookdetailsType) => {
                 </h2>
 
                 <p className="mt-3 text-slate-500">
-                    Sorry, we couldn't find the book you're looking for.
+                    Sorry, we couldnot find the book your are looking for.
                 </p>
 
                 <Link
@@ -71,9 +71,9 @@ const BookDetailsPage = async ({ params }: bookdetailsType) => {
                 <div className="grid lg:grid-cols-2">
 
                     {/* Book Image */}
-                    <div className="flex items-center justify-center bg-gradient-to-br from-emerald-50 via-white to-lime-50 p-8 sm:p-12 lg:p-16">
+                    <div className="flex items-center justify-center bg-linear-to-br from-emerald-50 via-white to-lime-50 p-8 sm:p-12 lg:p-16">
 
-                        <div className="relative h-[420px] w-[280px] overflow-hidden rounded-2xl shadow-2xl transition duration-500 hover:scale-105">
+                        <div className="relative h-105 w-70 overflow-hidden rounded-2xl shadow-2xl transition duration-500 hover:scale-105">
                             <Image
                                 src={book.image}
                                 alt={book.bookName}

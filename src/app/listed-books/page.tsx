@@ -7,7 +7,7 @@ import BookListCard from '@/app/components/shared/BookListCard';
 import { IBook } from '@/types/bookType';
 
 const ListedBooksPage = () => {
-    const { readBooks, wishlist } = useContext(BookContext);
+    const { readBooks, wishlist } = useContext(BookContext)!;
 
     const [sortBy, setSortBy] = useState<"rating" | "number" | "year">("rating");
 

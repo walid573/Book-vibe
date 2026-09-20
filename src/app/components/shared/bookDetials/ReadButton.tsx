@@ -10,7 +10,7 @@ import { toast } from 'react-toastify';
 
 const ReadButton = ({book}:{book: IBook}) => {
 
-    const { setReadBooks} = useContext(BookContext)
+    const { setReadBooks } = useContext(BookContext)!;
 
     const handleReadBook = () =>{
         console.log("read btn clicked");

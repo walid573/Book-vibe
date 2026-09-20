@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 
 const WishlistButton = ({book}:{book: IBook}) => {
 
-    const  {wishlist, setWishlist} = useContext(BookContext)
+    const  { setWishlist} = useContext(BookContext)!;
 
     const handleWishlistedBooks= ()=> {
         console.log("wishlist pressed");
