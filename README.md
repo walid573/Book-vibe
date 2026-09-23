@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Book Vibe — Modern Book Management Web Application
 
-## Getting Started
+A modern and interactive React application where users can discover books, view detailed information, create a personal reading list and wishlist, and track their reading progress through a clean, responsive interface. This project was built to practice **React Router, Context API, Local Storage, and reusable component architecture** while creating a real-world frontend application. Inspired by modern Book Vibe React projects built with React Router and Context API. <Cite refs={["turn544744search1","turn0search10"]}/>
 
-First, run the development server:
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![React Router](https://img.shields.io/badge/React_Router-v7-CA4245?logo=reactrouter)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-5-5A0EF8)
+
+---
+
+## 🌐 Live Demo
+
+**🔗 Live Website:** (https://book-vibe-cyan-chi.vercel.app/)
+
+---
+
+## 📖 Project Overview
+
+Book Vibe is a responsive book management web application that allows users to browse a curated collection of books, explore detailed book information, and organize books into **Read List** and **Wishlist** collections.
+
+The application uses **React Router v7** for dynamic routing, **Context API** for global state management, and **Local Storage** to persist user data even after refreshing the browser.
+
+---
+
+## ✨ Key Features
+
+* 📚 Browse books from a curated collection.
+* 🔍 Dynamic book details page with complete information.
+* ❤️ Add books to a Wishlist.
+* ✅ Mark books as Read.
+* 📂 Separate Read List and Wishlist tabs.
+* 📊 Sort books by Rating or Total Pages.
+* 💾 Persistent data using Local Storage.
+* 📱 Fully responsive UI for mobile, tablet, and desktop.
+* 🔔 Toast notifications for user interactions.
+* ❌ Custom 404 Error Page for invalid routes.
+
+---
+
+
+## 🛠️ Technologies Used
+
+| Category         | Technologies               |
+| ---------------- | -------------------------- |
+| Frontend         | React.js, JavaScript       |
+| Routing          | React Router v7            |
+| State Management | Context API                |
+| Styling          | Tailwind CSS, DaisyUI      |
+| Charts           | Recharts                   |
+| Notifications    | React Toastify             |
+| Icons            | React Icons / Lucide React |
+| Storage          | Local Storage              |
+| Build Tool       | Vite                       |
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/
+├── components/
+│   ├── Navbar/
+│   ├── Banner/
+│   ├── BookCard/
+│   ├── BookDetails/
+│   ├── ListedBooks/
+│   ├── Wishlist/
+│   └── Footer/
+├── context/
+│   └── BookContext.jsx
+├── hooks/
+├── pages/
+├── routes/
+├── utils/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository.
+
+```bash
+git clone https://github.com/walid573/Book-vibe.git
+```
+
+Navigate to the project folder.
+
+```bash
+cd Book-vibe
+```
+
+Install all dependencies.
+
+```bash
+npm install
+```
+
+Run the development server.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:5173
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📚 What I Learned
 
-To learn more about Next.js, take a look at the following resources:
+This project helped me gain practical experience with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* React component-based architecture.
+* React Router dynamic routing and loaders.
+* Context API for global state management.
+* Local Storage for persistent application state.
+* Conditional rendering and reusable components.
+* Sorting and filtering arrays in React.
+* Responsive UI design using Tailwind CSS and DaisyUI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* 🔎 Search books by title or author.
+* 📑 Filter books by category or genre.
+* ⭐ Add book ratings and reviews.
+* 🌙 Dark and Light theme support.
+* 🔐 User authentication and profile.
+* ☁️ Connect to a backend database instead of Local Storage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👨‍💻 Developer
+
+**Mohammad Walid**
+
+* GitHub: https://github.com/walid573
+
+---
+
+## ⭐ Repository Description (Pinned Repository)
+
+> A modern React book management application featuring dynamic routing, Context API, Local Storage, wishlist and reading list management, sorting, charts, and a fully responsive UI.
